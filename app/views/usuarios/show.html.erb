@@ -1,0 +1,15 @@
+<% content_for :title, "Usuario" %>
+<%= stylesheet_link_tag "ver_usuario", media: "all" %> 
+
+<p style="color: green"><%= notice %></p>
+
+<h1>Usuario en Lista</h1>
+
+<div class="usuario-template">
+  <%= render @usuario %>
+  <div class="usuario-actions">
+    <%= link_to "Editar este usuario", edit_usuario_path(@usuario), class: "btn btn-primary" %> |
+    <%= link_to "Volver a usuarios", usuarios_path, class: "btn btn-secondary" %>
+    <%= button_to "Eliminar este usuario", @usuario, method: :delete, class: "btn btn-danger" %>
+  </div>
+</div>

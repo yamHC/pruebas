@@ -1,0 +1,68 @@
+/* ver_usuario.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 600;
+    color: blue; /* Color del encabezado */
+    margin: 20px 0;
+  }
+  
+  .usuario-template {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .usuario-template p {
+    color: #333; /* Color del texto */
+    margin: 10px 0;
+  }
+  
+  .usuario-actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .usuario-actions .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .usuario-actions .btn-primary {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .usuario-actions .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .usuario-actions .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .usuario-actions .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .usuario-actions .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .usuario-actions .btn-danger:hover {
+    background-color: #c82333;
+  }

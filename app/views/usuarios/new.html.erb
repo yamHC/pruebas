@@ -1,0 +1,14 @@
+<% content_for :title, "New Usuario" %>
+<%= stylesheet_link_tag "nuevo_usuario", media: "all" %> 
+
+<h1>New Usuario</h1>
+
+<div class="form-container">
+  <%= render "form", usuario: @usuario %>
+</div>
+
+<br>
+
+<div class="back-link">
+  <%= link_to "Back to Usuarios", usuarios_path, class: "btn btn-secondary" %>
+</div>
